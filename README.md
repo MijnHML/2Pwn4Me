@@ -1,5 +1,7 @@
 #2Pwn4Me
 
+Currently not useable as I'm trying to recover this project...
+
 Plays music on a remote PC (Active Directory and SMB required!)
 
 ---
