@@ -1,7 +1,5 @@
 #2Pwn4Me
 
-Currently not useable as I'm trying to recover this project...
-
 Plays music on a remote PC (Active Directory and SMB required!)
 
 ---
@@ -31,7 +29,7 @@ Profit?
 ---
 #####How to stop?
 
-Currently the tool does not allow to do this remotly, you can however connect to the remote computer yourself with "PsExec \\remotecomputername cmd", wait for it to start and when your on the remote shell use: "TASKKILL /im mp.exe /f"
+Currently the tool does not allow to do this remotely, you can however connect to the remote computer yourself with "PsExec \\remotecomputername cmd", wait for it to start and when you've got a remote shell use: "TASKKILL /im mp.exe /f"
 On the remote computer itself, you'll either have to run the TASKKILL command from above, or turn off the computer. You could also turn down the volume, though that wouldn't stop the music from playing you wouldn't be able to hear it anymore.
 
 ---
